@@ -7,6 +7,8 @@
 
     <title>WebStudio</title>
 
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+
     <link rel="stylesheet" href="./css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,172 +27,180 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo link"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="navigation link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="navigation link">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="navigation link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="main-contact">
-        <ul class="list">
-          <li class="list-item">
-            <a href="mailto:info@devstudio.com" class="contact link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="contact link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-container">
+        <nav>
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="list">
+            <li>
+              <a href="./index.html" class="navigation link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="navigation link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="navigation link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="main-contact">
+          <ul class="list">
+            <li class="list-item">
+              <a href="mailto:info@devstudio.com" class="contact link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contact link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
-    <main>
+    <main class="main">
       <section>
-        <h1 hidden>Hello world</h1>
-        <!-- Buttons -->
-        <ul class="list">
-          <li>
-            <button type="button" class="order-btn">All</button>
-          </li>
-          <li>
-            <button type="button" class="order-btn">Web Site</button>
-          </li>
-          <li>
-            <button type="button" class="order-btn">App</button>
-          </li>
-          <li>
-            <button type="button" class="order-btn">Design</button>
-          </li>
-          <li>
-            <button type="button" class="order-btn">Marketing</button>
-          </li>
-        </ul>
+        <div>
+          <h1 hidden>Hello world</h1>
+          <!-- Buttons -->
+          <ul class="list">
+            <li>
+              <button type="button" class="order-btn">All</button>
+            </li>
+            <li>
+              <button type="button" class="order-btn">Web Site</button>
+            </li>
+            <li>
+              <button type="button" class="order-btn">App</button>
+            </li>
+            <li>
+              <button type="button" class="order-btn">Design</button>
+            </li>
+            <li>
+              <button type="button" class="order-btn">Marketing</button>
+            </li>
+          </ul>
+        </div>
         <!-- Areas of services -->
-        <ul class="list">
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img2.jpg"
-                alt="Banking App Interface Concept"
-                height="300"
-              />
-              <h2 class="areas-list-title">Banking App Interface Concept</h2>
-              <p class="areas-list-text">App</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img1.jpg"
-                alt="Cashless Payment"
-                height="300"
-              />
-              <h2 class="areas-list-title">Cashless Payment</h2>
-              <p class="areas-list-text">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img.jpg"
-                alt="Meditation App"
-                height="300"
-              />
-              <h2 class="areas-list-title">Meditation App</h2>
-              <p class="areas-list-text">App</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img4.jpg"
-                alt="Taxi Service"
-                height="300"
-              />
-              <h2 class="areas-list-title">Taxi Service</h2>
-              <p class="areas-list-text">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img5.jpg"
-                alt="Screen Illustrations"
-                height="300"
-              />
-              <h2 class="areas-list-title">Screen Illustrations</h2>
-              <p class="areas-list-text">Design</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img3.jpg"
-                alt="Online Courses"
-                height="300"
-              />
-              <h2 class="areas-list-title">Online Courses</h2>
-              <p class="areas-list-text">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img8.jpg"
-                alt="Instagram Stories Concept"
-                height="300"
-              />
-              <h2 class="areas-list-title">Instagram Stories Concept</h2>
-              <p class="areas-list-text">Design</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img7.jpg"
-                alt="Organic Food"
-                height="300"
-              />
-              <h2 class="areas-list-title">Organic Food</h2>
-              <p class="areas-list-text">Web Site</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img
-                src="./images/areas/img6.jpg"
-                alt="Fresh Coffee"
-                height="300"
-              />
-              <h2 class="areas-list-title">Fresh Coffee</h2>
-              <p class="areas-list-text">Web Site</p>
-            </a>
-          </li>
-        </ul>
+        <div>
+          <ul class="list">
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img2.jpg"
+                  alt="Banking App Interface Concept"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Banking App Interface Concept</h2>
+                <p class="areas-list-text">App</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img1.jpg"
+                  alt="Cashless Payment"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Cashless Payment</h2>
+                <p class="areas-list-text">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img.jpg"
+                  alt="Meditation App"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Meditation App</h2>
+                <p class="areas-list-text">App</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img4.jpg"
+                  alt="Taxi Service"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Taxi Service</h2>
+                <p class="areas-list-text">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img5.jpg"
+                  alt="Screen Illustrations"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Screen Illustrations</h2>
+                <p class="areas-list-text">Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img3.jpg"
+                  alt="Online Courses"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Online Courses</h2>
+                <p class="areas-list-text">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img8.jpg"
+                  alt="Instagram Stories Concept"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Instagram Stories Concept</h2>
+                <p class="areas-list-text">Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img7.jpg"
+                  alt="Organic Food"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Organic Food</h2>
+                <p class="areas-list-text">Web Site</p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><img
+                  src="./images/areas/img6.jpg"
+                  alt="Fresh Coffee"
+                  height="300"
+                />
+                <h2 class="areas-list-title">Fresh Coffee</h2>
+                <p class="areas-list-text">Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a href="./index.html" class="logo link"
-        >Web<span class="logo-studio-footer">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div>
+        <a href="./index.html" class="logo link"
+          >Web<span class="logo-studio-footer">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
