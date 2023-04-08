@@ -50,8 +50,19 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.container{
+  width: 1158px;
+  padding: 0 15px 0 15px;
+}
+
+.navigation-list{
+  display: flex;
+  align-items: center;
+}
+
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -62,7 +73,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-logo);
-  margin: 24px 0 24px 156px;
+  margin: 24px 76px 24px 156px;
 }
 
 .logo-studio {
@@ -90,6 +101,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
 
 .navigation:focus,
@@ -117,6 +129,7 @@ button {
 
 .hero {
   background: #2e2f42;
+  padding: 188px 0 188px;
 }
 
 .hero-title {
@@ -127,6 +140,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
 }
 
 .order {
@@ -143,6 +157,10 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: white;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  border: none;
 }
 
 .order:hover,
@@ -157,12 +175,25 @@ button {
 
 /* Skills */
 
+.skills{
+  padding: 120px 0 120px;
+}
+
+.skills-list{
+  gap: 24px;
+}
+
+.skills-item{
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .skills-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-logo-span);
+  margin-bottom: 8px;
 }
 
 .skills-item-text {
@@ -173,6 +204,10 @@ button {
 
 /* Our work */
 
+.our-work{
+  padding-bottom: 120px;
+}
+
 .work-title {
   font-size: 36px;
   line-height: 1.11;
@@ -180,18 +215,47 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-logo-span);
+  margin-bottom: 72px;
+}
+
+.list{
+  gap: 24px;
+}
+
+.our-work-item{
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /* Our Team */
 
 .team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
-.teeam-item {
+.skills-item-title{
+  margin-bottom: 72px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.skills-item-text{
+  text-align: center;
+}
+
+.our-Team-list{
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.team-item {
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item-name{
+  padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -199,6 +263,7 @@ button {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-studio-footer {
@@ -212,6 +277,11 @@ button {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.logo{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* portfolio */
