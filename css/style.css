@@ -57,10 +57,6 @@ button {
   padding: 0 15px 0 15px;
 }
 
-.header-list{
-  gap: 40px;
-}
-
 .navigation-list{
   display: flex;
   align-items: center;
@@ -109,12 +105,19 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0 24px;
-  gap: 40px;
 }
 
 .navigation:focus,
 .navigation:hover {
   color: #404bbf;
+}
+
+.address-list{
+  gap: 40px;
+}
+
+.list-item{
+  gap: 40px;
 }
 
 .main-contact {
