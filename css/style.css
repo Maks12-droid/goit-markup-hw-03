@@ -52,6 +52,14 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header-list{
+  gap: 40px;
+}
+
+.address-list{
+  gap: 40px;
+}
+
 .container{
   width: 1158px;
   padding: 0 15px 0 15px;
@@ -110,14 +118,6 @@ button {
 .navigation:focus,
 .navigation:hover {
   color: #404bbf;
-}
-
-.address-list{
-  gap: 40px;
-}
-
-.list-item{
-  gap: 40px;
 }
 
 .main-contact {
