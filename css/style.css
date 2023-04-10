@@ -52,7 +52,11 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-our-list{
+.header-list{
+  gap: 40px;
+}
+
+.addres-list{
   gap: 40px;
 }
 
@@ -221,10 +225,6 @@ button {
   text-transform: capitalize;
   color: var(--color-logo-span);
   margin-bottom: 72px;
-}
-
-.list{
-  gap: 24px;
 }
 
 .our-work-item{
