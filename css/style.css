@@ -227,6 +227,10 @@ button {
   margin-bottom: 72px;
 }
 
+.our-work-list{
+  gap: 24px;
+}
+
 .our-work-item{
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
@@ -250,6 +254,7 @@ button {
 
 .our-team-list{
   flex-basis: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 
 .team-item {
@@ -299,6 +304,7 @@ button {
 .portfolio-btn-list{
   justify-content: center;
   margin-bottom: 72px;
+  gap: 24px;
 }
 
 .portfolio-list {
