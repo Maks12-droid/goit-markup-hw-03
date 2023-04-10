@@ -52,11 +52,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-list{
-  gap: 40px;
-}
-
-.address-list{
+.header-our-list{
   gap: 40px;
 }
 
