@@ -54,6 +54,7 @@ button {
 
 .header-list{
   gap: 40px;
+  margin-left: 76px;
 }
 
 .addres-list{
@@ -63,16 +64,19 @@ button {
 .container{
   width: 1158px;
   padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 
 .navigation-list{
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 
 .logo {
@@ -83,7 +87,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-logo);
-  margin: 24px 76px 24px 156px;
 }
 
 .logo-studio {
@@ -150,6 +153,8 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .order {
@@ -242,16 +247,6 @@ button {
   padding: 120px 0;
 }
 
-.skills-item-title{
-  margin-bottom: 72px;
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.skills-item-text{
-  text-align: center;
-}
-
 .our-team-list{
   flex-basis: calc((100% - 72px) / 4);
   gap: 24px;
@@ -263,6 +258,14 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
+}
+
+.team-item-title{
+  text-align: center;
+}
+
+.team-item-text{
+  text-align: center;
 }
 
 .team-item-name{
@@ -277,6 +280,10 @@ button {
   padding: 100px 0;
 }
 
+.footer-container{
+  margin: 0 auto;
+}
+
 .logo-studio-footer {
   color: #f4f4fd;
 }
@@ -288,17 +295,18 @@ button {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+  margin-top: 16px;
 }
 
 .logo{
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 /* portfolio */
 
 .portfolio-main{
-  padding: 96px 0 120px
+  padding: 96px 0 120px;
 }
 
 .portfolio-btn-list{
